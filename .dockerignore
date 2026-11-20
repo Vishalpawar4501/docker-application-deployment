@@ -1,0 +1,40 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+**/venv/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Git & Version Control
+.git/
+.gitignore
+.gitattributes
+
+# Docker & Documentation (Not needed inside container)
+Dockerfile
+docker-compose.yml
+docker-compose*.yml
+.dockerignore
+README.md
+images/
+
+# IDE & OS Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.log
